@@ -18,11 +18,15 @@ Sign In page
 
 ![](image-2.png)
 ##
+
 Sign Up page
 
 ![](image-1.png)
+##
 
-![Home page](image-3.png)
+Home page
+
+![](image-3.png)
 
 ![Firebase Project](image.png)
 
