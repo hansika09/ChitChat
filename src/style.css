@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+}
+
+.formContainer {
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer .formWrapper {
+    background-color: white;
+    padding: 50px 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.formContainer .formWrapper .logo {
+    color: #5d5d8d;
+    font-weight: bold;
+    font-size: 30px;
+}
+.formContainer .formWrapper .title {
+    color: #5d5d8d;
+    font-size: 18px;
+}
+.formContainer .formWrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.formContainer .formWrapper form input {
+    padding: 10px;
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid #a7bcff;
+}
+.formContainer .formWrapper form input::placeholder {
+    color: rgb(175, 175, 175);
+}
+.formContainer .formWrapper form button {
+    background-color: #7b96ec;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.formContainer .formWrapper form button:hover {
+    background-color: #8aa5fd;
+}
+.formContainer .formWrapper form label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8da4f1;
+    font-size: 12px;
+    cursor: pointer;
+}
+.formContainer .formWrapper form label img {
+    width: 30px;
+}
+.formContainer .formWrapper p {
+    color: #5d5d8d;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.home {
+    height: 100vh;
+}
+
+.home .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.home .container .sidebar {
+    flex: 1;
+    background-color: #3e3c61;
+    overflow-y: auto;
+}
+.home .container .sidebar .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #2f2d52;
+    height: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    color: #ddddfd;
+}
+.home .container .sidebar .navbar .logo {
+    font-weight: bold;
+    font-size: 26px;
+}
+.home .container .sidebar .navbar .user {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+.home .container .sidebar .navbar img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.home .container .sidebar .navbar .user button {
+    background-color: #5d5d8d;
+    color: #ddddf7;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+}
+.home .container .sidebar .navbar .user button:hover {
+    background-color: #747497;
+}
+.home .container .sidebar .search {
+    border-bottom: 1px solid gray;
+}
+.home .container .sidebar .search .searchForm {
+    padding: 10px;
+}
+.home .container .sidebar .search .searchForm input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    height: 30px;
+}
+.home .container .sidebar .search .searchForm input::placeholder {
+    color: lightgray;
+}
+.home .container .sidebar .userChat {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+}
+.home .container .sidebar .userChat:hover {
+    background-color: #2f2d52;
+}
+
+.home .container .sidebar .userChat img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.home .container .sidebar .userChat .userChatInfo span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+}
+.home .container .sidebar .userChat .userChatInfo p {
+    font-size: 14px;
+    color: lightgray;
+    line-height: 1;
+}
+
+.home .container .chatscreen {
+    flex: 2;
+}
+.home .container .chatscreen .chatInfo {
+    height: 50px;
+    background-color: #5d5d8d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: lightgray;
+}
+.home .container .chatscreen .chatInfo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.home .container .chatscreen .chatIcons {
+    display: flex;
+    gap: 10px;
+}
+.home .container .chatscreen .chatIcons img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.home .container .chatscreen .messages {
+    background-color: #ddddfd;
+    padding: 10px;
+    height: calc(100% - 160px);
+    overflow: auto;
+}
+.home .container .chatscreen .messages .message {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.home .container .chatscreen .messages .message.owner {
+    flex-direction: row-reverse;
+}
+.home .container .chatscreen .messages .message.owner .messagecontent p {
+    background-color: #8da4f1;
+    color: white;
+    border-radius: 10px 0px 10px 10px;
+}
+.home .container .chatscreen .messages .message .messageinfo {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-weight: 300;
+}
+.home .container .chatscreen .messages .message .messageinfo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.home .container .chatscreen .messages .message .messagecontent {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+.home .container .chatscreen .messages .message .messagecontent p {
+    background-color: white;
+    padding: 10px 20px; 
+    border-radius: 0px 10px 10px 10px;
+    max-width: max-content;
+}
+.home .container .chatscreen .messages .message .messagecontent img {
+    width: 50%;
+}
+
+.home .container .chatscreen .inputpanel {
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .container .chatscreen .inputpanel input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #2f2d52;
+    font-size: 18px;
+}
+.home .container .chatscreen .inputpanel input::placeholder{
+    color: gray;
+    font-size: 16px;
+}
+.home .container .chatscreen .inputpanel .send {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.home .container .chatscreen .inputpanel .send img {
+    height: 24px;
+    cursor: pointer;
+}
+.home .container .chatscreen .inputpanel .send button {
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #5d5d8d;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+.home .container .chatscreen .inputpanel .send  button:hover {
+    background-color: #747497;
+}
