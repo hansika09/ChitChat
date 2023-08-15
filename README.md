@@ -14,27 +14,46 @@ Use the following steps:
 ## For your reference, here is a demo 📸 of this application:
 
 
-Sign In page
+Sign In page:
 
 ![](image-2.png)
 ##
 
-Sign Up page
+Sign Up page:
 
 ![](image-1.png)
 ##
+
 Home page
 
 ![](image-3.png)
+##
 
-![Firebase Project](image.png)
+Firebase project:
 
-![Registered Users](image-4.png)
+![](image.png)
+##
 
-![Collection of chat messages](image-5.png)
+Registered users:
 
-![Collection of particular user's chat](image-6.png)
+![](image-4.png)
+##
 
-![Collection of registered users](image-7.png)
+Collection of chat messages:
 
-![Cloud storage for media files](image-8.png)
+![](image-5.png)
+##
+
+Collection of particular user's chat:
+
+![](image-6.png)
+##
+
+Collection of registered users:
+
+![](image-7.png)
+##
+
+Cloud storage for media files:
+
+![](image-8.png)
