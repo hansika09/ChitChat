@@ -6,19 +6,21 @@ This is a chatting application built using React and Firebase.
 
 Use the following steps:
 
-### `npm i`
-
-### Connect your project to firebase
-
-### Change the code in firebase.js with your authentication details
-
-### `npm start`
+1. `npm i`
+2. Connect your project to firebase.
+3. Change the code in firebase.js with your authentication details.
+4. `npm start`
 
 ## For your reference, here is a demo 📸 of this application:
 
-![Sign In page](image-2.png)
 
-![Sign Up page](image-1.png)
+Sign In page
+
+![](image-2.png)
+##
+Sign Up page
+
+![](image-1.png)
 
 ![Home page](image-3.png)
 
