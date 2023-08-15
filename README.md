@@ -23,7 +23,6 @@ Sign Up page
 
 ![](image-1.png)
 ##
-
 Home page
 
 ![](image-3.png)
